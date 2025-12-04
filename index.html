@@ -2,21 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>EMS RPG CE Tracker</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js"></script>
+    <title>EMSQuest Home Page</title>
 </head>
 <body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="quests.html">Quests</a>
+        <a href="training.html">Training</a>
+    </nav>
 
-<div class="container">
-    <h1>🚑 EMS Fantasy RPG CE Tracker</h1>
-    <p>Earn XP and unlock mastery badges by completing CE requirements!</p>
+    <h1>Welcome to EMSQuest</h1>
+    <p>Your EMS-themed RPG education and recertification tracker.</p>
 
-    <div id="categories"></div>
-
-    <h2>🎖️ Unlocked Badges</h2>
-    <div id="badges"></div>
-</div>
-
-<script src="script.js"></script>
+    <!-- Add XP Bar -->
+     <div id="xp-section">
+        <h2>Your XP: <span id="xp-value">0</span></h2>
+        <button id="gain-xp">Gain 10 XP</button>
+     </div>
 </body>
 </html>
