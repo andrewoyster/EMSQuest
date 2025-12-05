@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="script.js"></script>
     <title>EMSQuest Home Page</title>
 </head>
 <body>
@@ -21,6 +20,19 @@
      <div id="xp-section">
         <h2>Your XP: <span id="xp-value">0</span></h2>
         <button id="gain-xp">Gain 10 XP</button>
+        <button id="reset-xp">Reset XP</button>
      </div>
+
+     <!-- Add XP Bar -->
+      <div id="level-container">
+        <p>Level: <span id="level-value">1</span></p>
+
+        <div id="xp-bar">
+            <div id="xp-fill"></div>
+        </div>
+      </div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
