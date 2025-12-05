@@ -26,6 +26,20 @@ nav a:hover {
     color: #bbdefb;
 }
 
+button {
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0px 0px 12px rgba(0, 255, 0, 0.6);
+}
+
 #level-container {
     margin-top: 20px;
     width: 300px;
