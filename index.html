@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>EMSQuest Home Page</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="quests.html">Quests</a>
-        <a href="training.html">Training</a>
+      <a href="index.html">Home</a>
+      <a href="quests.html">Quests</a>
+      <a href="training.html">Training</a>
     </nav>
 
-    <h1>Welcome to EMSQuest</h1>
-    <p>Your EMS-themed RPG education and recertification tracker.</p>
+    <div id="game-container">
+      <div id="title-container">
+        <h1>Welcome to EMSQuest</h1>
+        <p>Your EMS-themed RPG education and recertification tracker.</p>
+      </div>
 
-    <!-- Add XP Bar -->
-     <div id="xp-section">
+      <div id="stats-container">
         <h2>Your XP: <span id="xp-value">0</span></h2>
-        <button id="gain-xp">Gain 10 XP</button>
-        <button id="reset-xp">Reset XP</button>
-     </div>
-
-     <!-- Add XP Bar -->
-      <div id="level-container">
         <p>Level: <span id="level-value">1</span></p>
-
         <div id="xp-bar">
-            <div id="xp-fill"></div>
+          <div id="xp-fill"></div>
         </div>
       </div>
 
-    <script src="script.js"></script>
+      <div id="buttons-container">
+        <button id="gain-xp">Gain 10 XP</button>
+        <button id="reset-xp">Reset XP</button>
+      </div>
+    </div>
 
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
